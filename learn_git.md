@@ -77,3 +77,7 @@ git merge <branchname>
     git remote add origin https://github.com/YangZihao230/Learn_git.git
     <!-- 上传到网盘（远程仓库） -->
     git push -u origin main
+    <!-- 拉取远程仓库分支 -->
+    从远程仓库下载新分支与数据：
+    git fetch origin main
+    git pull origin main
