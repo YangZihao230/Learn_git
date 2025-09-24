@@ -42,3 +42,12 @@ PS D:\postgraduate\Traing_work\Git> git add .
 PS D:\postgraduate\Traing_work\Git> git commit -m "fix(learn_git.md): change content"
     [master aeb61bb] fix(learn_git.md): change content
     1 file changed, 6 insertions(+)
+
+<!-- ！！！回退版本，!!! 删除回退之后的所有版本
+git reset --hard <commit后的索引号>
+    【例如：commit b3a8a9b5210bd7d1506c1f5a94e4a3e7f9994e4b (HEAD -> master)】
+ -->
+git reset --hard b3a8a9b5210bd7d1506c1f5a94e4a3e7f9994e4b
+
+<!-- 不同版本的切换，分支功能branch,当前版本1.0 -->
+git branch 1.0
