@@ -70,7 +70,7 @@ git branch
 <!-- 将其他分支合并到当前分支：-->
 git merge <branchname>
 
-<!-- 上传到github仓库 -->
+<!-- 上传到github仓库,最好是先添加好仓库再进行创作，或者克隆好仓库再修改上传 -->
     <!-- 创建主分支 -->
     git branch -M main
     <!-- 添加远程仓库地址 -->
@@ -78,6 +78,6 @@ git merge <branchname>
     <!-- 上传到网盘（远程仓库） -->
     git push -u origin main
     <!-- 拉取远程仓库分支 -->
-    从远程仓库下载新分支与数据：
+    <!-- 从远程仓库下载新分支与数据： -->
     git fetch origin main
     git pull origin main
