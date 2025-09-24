@@ -37,3 +37,8 @@ PS D:\postgraduate\Traing_work\Git> git commit -m "第二次提交"
     [master 5c70af6] 第二次提交
     1 file changed, 33 insertions(+)
 
+<!-- 规范提交 -->
+PS D:\postgraduate\Traing_work\Git> git add .
+PS D:\postgraduate\Traing_work\Git> git commit -m "fix(learn_git.md): change content"
+    [master aeb61bb] fix(learn_git.md): change content
+    1 file changed, 6 insertions(+)
