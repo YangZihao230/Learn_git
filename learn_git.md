@@ -31,3 +31,9 @@ PS D:\postgraduate\Traing_work\Git> git log
 
         第一次提交
 
+<!-- 简化提交 -->
+PS D:\postgraduate\Traing_work\Git> git add .
+PS D:\postgraduate\Traing_work\Git> git commit -m "第二次提交"
+    [master 5c70af6] 第二次提交
+    1 file changed, 33 insertions(+)
+
