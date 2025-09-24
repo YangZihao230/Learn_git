@@ -49,5 +49,6 @@ git reset --hard <commit后的索引号>
  -->
 git reset --hard b3a8a9b5210bd7d1506c1f5a94e4a3e7f9994e4b
 
-<!-- 不同版本的切换，分支功能branch,当前版本1.0 -->
+<!-- 不同版本的切换，分支功能branch,当前版本2.0 -->
 git branch 1.0
+git branch 2.0
